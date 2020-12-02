@@ -12,7 +12,10 @@ for item in input_list:
         result = input_list.index(remainder)
     except ValueError:
         continue
-    print("{item} * {remain} = {result}".format(item = item, remain = remainder, result = item * remainder))
+    print("{item} * {remain} = {result}".format(
+        item = item, 
+        remain = remainder, 
+        result = item * remainder))
     break
 print("--- {time} seconds ---".format(time=time.time()- star1_start))
 
