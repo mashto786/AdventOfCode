@@ -3,7 +3,7 @@ import time
 
 ## Star 1
 star1_start = time.time()
-with open(os.path.join('Day 1', 'input.txt'), 'r') as fh:
+with open(os.path.join('Day1', 'input.txt'), 'r') as fh:
     inputData = fh.read()
 input_list = [int(item) for item in inputData.split('\n') if item.isnumeric()]
 for item in input_list:
